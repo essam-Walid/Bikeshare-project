@@ -158,7 +158,7 @@ def raw_data(df):
     print(df.head())
     num = 0
     while True:
-        view_raw_data = input('\nWould you like to view five row of raw data? Enter "yes" or "no"\n')
+        view_raw_data = input('\nWant to view five row of raw data? Enter "yes" or "no"\n')
         if view_raw_data.lower() != 'yes':
             return
         num = num + 5
